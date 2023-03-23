@@ -8,4 +8,6 @@
  
  <bean class="com.SpringCore.LifeCycle.Samosa" id="s1" p:price="10" init-method="hey"  destroy-method="bye"/>
  
+ <bean class="com.SpringCore.LifeCycle.PepsiInterface" id="p1" p:price="20"/>
+ 
 </beans>

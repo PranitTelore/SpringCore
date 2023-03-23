@@ -12,6 +12,10 @@ public class Test {
 		System.out.println(s);
 		//registering shutdownhook
 		context.registerShutdownHook();
+		
+		System.out.println("---------------------------------------");
+		PepsiInterface p =(PepsiInterface) context.getBean("p1");
+		System.out.println(p);
 
 	}
 
