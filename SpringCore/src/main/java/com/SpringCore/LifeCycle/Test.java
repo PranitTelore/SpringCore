@@ -16,6 +16,11 @@ public class Test {
 		System.out.println("---------------------------------------");
 		PepsiInterface p =(PepsiInterface) context.getBean("p1");
 		System.out.println(p);
+		
+		System.out.println("---------------------------------------");
+		ExampleAnnotations as = (ExampleAnnotations) context.getBean("sub");
+		System.out.println(as);
+		
 
 	}
 
